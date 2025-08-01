@@ -29,5 +29,8 @@ public class TransactionsController : ControllerBase
 
     [HttpGet]
     public async Task<IActionResult> GetAll()
-        => Ok(await _db.Transactions.OrderByDescending(x => x.CreatedAt).ToListAsync());
+    {
+        var result = await _mediator.Send(new BankApp.Application.Transactions.Queries.GetAllTransactionsQuery());
+        return Ok(result);
+    }
 }

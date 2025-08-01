@@ -14,3 +14,5 @@ C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\refint\
 C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp.Infrastructure.pdb
 C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\ref\BankApp.Infrastructure.dll
 C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp.Infrastructure.sourcelink.json
+c:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\bin\Debug\net9.0\BankApp.Infrastructure.runtimeconfig.json
+c:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp.Infrastructure.genruntimeconfig.cache

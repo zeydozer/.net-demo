@@ -17,11 +17,27 @@ builder.Services.AddCors(o =>
                                        .AllowAnyMethod()));
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
-    opt.UseInMemoryDatabase("BankDb")); // İlk adımda kolaylık
+    opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddControllers();
 
 var app = builder.Build();
+
+// Seed data
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    if (!db.Transactions.Any())
+    {
+        db.Transactions.AddRange(new[]
+        {
+            new BankApp.Domain.Entities.Transaction { AccountId = 1, Amount = 1000, Type = "credit", CreatedAt = DateTime.UtcNow.AddDays(-2) },
+            new BankApp.Domain.Entities.Transaction { AccountId = 1, Amount = -200, Type = "debit", CreatedAt = DateTime.UtcNow.AddDays(-1) },
+            new BankApp.Domain.Entities.Transaction { AccountId = 2, Amount = 500, Type = "credit", CreatedAt = DateTime.UtcNow },
+        });
+        db.SaveChanges();
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
