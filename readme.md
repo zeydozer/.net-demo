@@ -28,6 +28,7 @@ setup_docker.bat
 ### 2. Backend (API)
 ```bash
 cd BankApp.Api
+dotnet build
 dotnet run
 ```
 The API will run at http://localhost:5000 by default.
@@ -47,6 +48,3 @@ The frontend will run at http://localhost:5173 by default.
 ## Developer Notes
 - EF Core uses an in-memory database for development. For a real database, update the `AppDbContext` configuration.
 - CORS is configured to work with the frontend.
-
-## License
-MIT

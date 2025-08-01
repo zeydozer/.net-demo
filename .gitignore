@@ -1,0 +1,75 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node.js (frontend)
+client/node_modules/
+client/dist/
+
+# Environment files
+.env
+.env.*
+
+# npm/yarn/pnpm lock files (optional, keep if you want reproducible builds)
+# package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Test results
+TestResults/
+
+# Docker
+**/docker-compose*.yml
+**/Dockerfile*
+
+# Others
+*.sqlite
+*.db
+*.bak
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.tmp
+*.swp
+
+# Large files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.iso
+*.exe
+*.dll
+*.pdb
+*.obj
+*.lib
+*.msi
+*.apk
+*.ipa
+*.app
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tgz
+*.tbz2
+*.txz
