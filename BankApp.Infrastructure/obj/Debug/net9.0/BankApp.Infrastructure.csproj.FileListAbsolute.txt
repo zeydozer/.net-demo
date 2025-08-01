@@ -1,0 +1,15 @@
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp.Infrastructure.AssemblyInfo.cs
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\bin\Debug\net9.0\BankApp.Infrastructure.deps.json
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\bin\Debug\net9.0\BankApp.Infrastructure.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\bin\Debug\net9.0\BankApp.Infrastructure.pdb
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\bin\Debug\net9.0\BankApp.Domain.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\bin\Debug\net9.0\BankApp.Domain.pdb
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp..640F0D05.Up2Date
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp.Infrastructure.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\refint\BankApp.Infrastructure.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp.Infrastructure.pdb
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\ref\BankApp.Infrastructure.dll

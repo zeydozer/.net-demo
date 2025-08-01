@@ -1,0 +1,11 @@
+C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\bin\Debug\net9.0\BankApp.Domain.deps.json
+C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\bin\Debug\net9.0\BankApp.Domain.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\bin\Debug\net9.0\BankApp.Domain.pdb
+C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\BankApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\BankApp.Domain.AssemblyInfoInputs.cache
+C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\BankApp.Domain.AssemblyInfo.cs
+C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\BankApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\BankApp.Domain.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\refint\BankApp.Domain.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\BankApp.Domain.pdb
+C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\ref\BankApp.Domain.dll
