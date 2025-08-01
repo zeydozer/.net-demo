@@ -9,3 +9,4 @@ C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\BankApp.Domain.
 C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\refint\BankApp.Domain.dll
 C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\BankApp.Domain.pdb
 C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\ref\BankApp.Domain.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Domain\obj\Debug\net9.0\BankApp.Domain.sourcelink.json

@@ -11,11 +11,18 @@ type Transaction = {
 
 export default function TransactionList() {
   const [transactions, setTransactions] = useState<Transaction[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     axios.get(import.meta.env.VITE_API_BASE + '/api/transactions')
-      .then(res => setTransactions(res.data));
+      .then(res => setTransactions(res.data))
+      .catch(err => setError(err.message))
+      .finally(() => setLoading(false));
   }, []);
+
+  if (loading) return <div className="p-4">Loading...</div>;
+  if (error) return <div className="p-4 text-red-500">Error: {error}</div>;
 
   return (
     <div className="p-4">

@@ -94,3 +94,9 @@ C:\Users\zeydo\Desktop\.net-case\BankApp.Api\bin\Debug\net9.0\BankApp.Domain.dll
 C:\Users\zeydo\Desktop\.net-case\BankApp.Api\bin\Debug\net9.0\BankApp.Infrastructure.dll
 C:\Users\zeydo\Desktop\.net-case\BankApp.Api\bin\Debug\net9.0\BankApp.Domain.pdb
 C:\Users\zeydo\Desktop\.net-case\BankApp.Api\bin\Debug\net9.0\BankApp.Infrastructure.pdb
+C:\Users\zeydo\Desktop\.net-case\BankApp.Api\obj\Debug\net9.0\BankApp.Api.sourcelink.json
+C:\Users\zeydo\Desktop\.net-case\BankApp.Api\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Api\bin\Debug\net9.0\MediatR.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Api\bin\Debug\net9.0\MediatR.Contracts.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Api\bin\Debug\net9.0\BankApp.Application.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Api\bin\Debug\net9.0\BankApp.Application.pdb
