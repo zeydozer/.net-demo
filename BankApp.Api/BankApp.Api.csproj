@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="13.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.7" />
     <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
   </ItemGroup>
@@ -14,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BankApp.Domain\BankApp.Domain.csproj" />
     <ProjectReference Include="..\BankApp.Infrastructure\BankApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\BankApp.Application\BankApp.Application.csproj" />
   </ItemGroup>
 
 </Project>

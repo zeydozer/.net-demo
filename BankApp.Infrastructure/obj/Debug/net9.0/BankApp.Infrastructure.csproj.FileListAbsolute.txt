@@ -13,3 +13,4 @@ C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp
 C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\refint\BankApp.Infrastructure.dll
 C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp.Infrastructure.pdb
 C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\ref\BankApp.Infrastructure.dll
+C:\Users\zeydo\Desktop\.net-case\BankApp.Infrastructure\obj\Debug\net9.0\BankApp.Infrastructure.sourcelink.json

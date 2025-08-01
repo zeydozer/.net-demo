@@ -1,11 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using BankApp.Infrastructure.Data;
+using MediatR;
+using BankApp.Application;
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<BankApp.Application.Transactions.Commands.CreateTransactionHandler>());
 
 builder.Services.AddCors(o =>
     o.AddPolicy("AllowFrontend", p => p.WithOrigins("http://localhost:5173")
@@ -14,6 +18,8 @@ builder.Services.AddCors(o =>
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseInMemoryDatabase("BankDb")); // İlk adımda kolaylık
+
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
@@ -25,6 +31,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("AllowFrontend");
 app.UseHttpsRedirection();
+
+app.MapControllers();
 
 var summaries = new[]
 {
