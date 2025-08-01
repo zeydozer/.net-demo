@@ -2,22 +2,17 @@
 using Microsoft.AspNetCore.Mvc;
 using MediatR;
 using BankApp.Application.Transactions.Commands;
-using BankApp.Domain.Entities;
-using BankApp.Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
+using BankApp.Application.Transactions.Queries;
 
 [ApiController]
 [Route("api/[controller]")]
-
 public class TransactionsController : ControllerBase
 {
     private readonly IMediator _mediator;
-    private readonly AppDbContext _db;
 
-    public TransactionsController(IMediator mediator, AppDbContext db)
+    public TransactionsController(IMediator mediator)
     {
         _mediator = mediator;
-        _db = db;
     }
 
     [HttpPost]
@@ -30,7 +25,7 @@ public class TransactionsController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
-        var result = await _mediator.Send(new BankApp.Application.Transactions.Queries.GetAllTransactionsQuery());
+        var result = await _mediator.Send(new GetAllTransactionsQuery());
         return Ok(result);
     }
 }

@@ -8,18 +8,18 @@ namespace BankApp.Application.Transactions.Queries
 {
     public class GetAllTransactionsHandler : IRequestHandler<GetAllTransactionsQuery, List<TransactionDto>>
     {
-        private readonly IDbConnection _db;
+        private readonly string _connectionString;
 
         public GetAllTransactionsHandler(IConfiguration config)
         {
-            // Bağlantı dizesi: appsettings.json veya env'den alınabilir
-            _db = new SqliteConnection("Data Source=bank.db"); // veya SqlConnection
+            _connectionString = config.GetConnectionString("DefaultConnection") ?? "Data Source=bank.db";
         }
 
         public async Task<List<TransactionDto>> Handle(GetAllTransactionsQuery req, CancellationToken ct)
         {
+            using var connection = new SqliteConnection(_connectionString);
             var sql = "SELECT Id, AccountId, Amount, Type, CreatedAt FROM Transactions ORDER BY CreatedAt DESC";
-            var result = await _db.QueryAsync<TransactionDto>(sql);
+            var result = await connection.QueryAsync<TransactionDto>(sql);
             return result.ToList();
         }
     }

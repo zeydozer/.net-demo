@@ -2953,11 +2953,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj": {
-              "projectPath": "C:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj"
+            "c:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj": {
+              "projectPath": "c:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj"
             },
-            "C:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Infrastructure\\BankApp.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Infrastructure\\BankApp.Infrastructure.csproj"
+            "c:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Infrastructure\\BankApp.Infrastructure.csproj": {
+              "projectPath": "c:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Infrastructure\\BankApp.Infrastructure.csproj"
             }
           }
         }
