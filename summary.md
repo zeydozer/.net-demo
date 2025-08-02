@@ -17,7 +17,8 @@
 
 ## ✅ Entity & Seed
 
-* `Transaction` entity’si tanımlandı (AccountId, Amount, Type, CreatedAt)
+* `Transaction` entity’si tanımlandı (AccountId, Amount, Type, CreatedAt, Description, User, UserId)
+* `User` entity’si tanımlandı (FirstName, LastName, Email, CreatedAt, Transactions, FullName)
 * Uygulama başlatıldığında otomatik **seed data** ekleniyor
 
 ---
@@ -26,6 +27,8 @@
 
 * ✔ `CreateTransactionCommand` → EF Core ile write
 * ✔ `GetAllTransactionsQuery` → **Dapper** ile read (DTO)
+* ✔ `CreateUserCommand` → EF Core ile write
+* ✔ `GetAllUsersQuery` → **Dapper** ile read (DTO)
 * ✔ Handler’lar Application katmanında tanımlandı
 
 ---
@@ -34,6 +37,8 @@
 
 * `POST /api/transactions` → yeni işlem ekler
 * `GET /api/transactions` → işlemleri listeler (Dapper ile performanslı)
+* `POST /api/users` → yeni kullanıcı ekler
+* `GET /api/users` → kullanıcıları listeler (Dapper ile performanslı)
 
 ---
 
