@@ -39,6 +39,9 @@ namespace BankApp.Infrastructure.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("TEXT");
+                    
+                    b.Property<string>("Description")
+                        .HasMaxLength(255);
 
                     b.HasKey("Id");
 

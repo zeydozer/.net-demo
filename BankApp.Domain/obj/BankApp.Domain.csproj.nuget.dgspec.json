@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj": {}
+    "C:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj": {
+    "C:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj",
         "projectName": "BankApp.Domain",
-        "projectPath": "c:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj",
+        "projectPath": "C:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj",
         "packagesPath": "C:\\Users\\zeydo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

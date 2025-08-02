@@ -14,8 +14,11 @@ namespace BankApp.Application.Transactions.Commands
             var tx = new Transaction
             {
                 AccountId = req.AccountId,
+                UserId = req.UserId,
                 Amount = req.Amount,
-                Type = req.Type
+                Type = req.Type,
+                Description = req.Description,
+                CreatedAt = DateTime.UtcNow
             };
             _db.Transactions.Add(tx);
             await _db.SaveChangesAsync(ct);

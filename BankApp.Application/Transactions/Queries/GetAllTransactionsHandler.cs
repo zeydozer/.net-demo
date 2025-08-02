@@ -1,6 +1,5 @@
 using Dapper;
 using MediatR;
-using System.Data;
 using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Configuration;
 
@@ -18,7 +17,22 @@ namespace BankApp.Application.Transactions.Queries
         public async Task<List<TransactionDto>> Handle(GetAllTransactionsQuery req, CancellationToken ct)
         {
             using var connection = new SqliteConnection(_connectionString);
-            var sql = "SELECT Id, AccountId, Amount, Type, CreatedAt FROM Transactions ORDER BY CreatedAt DESC";
+            
+            const string sql = """
+                SELECT 
+                    t.Id,
+                    t.AccountId,
+                    t.UserId,
+                    COALESCE(u.FirstName || ' ' || u.LastName, '') as UserFullName,
+                    CAST(t.Amount AS REAL) as Amount,
+                    t.Type,
+                    t.CreatedAt,
+                    COALESCE(t.Description, '') as Description
+                FROM Transactions t
+                LEFT JOIN Users u ON t.UserId = u.Id
+                ORDER BY t.CreatedAt DESC
+            """;
+            
             var result = await connection.QueryAsync<TransactionDto>(sql);
             return result.ToList();
         }

@@ -38,6 +38,9 @@ namespace BankApp.Infrastructure.Migrations
                     b.Property<string>("Type")
                         .IsRequired()
                         .HasColumnType("TEXT");
+                    
+                    b.Property<string>("Description")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 

@@ -7,6 +7,8 @@ type Transaction = {
   amount: number;
   type: string;
   createdAt: string;
+  description: string;
+  userFullName: string;
 };
 
 export default function TransactionList() {
@@ -30,9 +32,11 @@ export default function TransactionList() {
       <ul className="space-y-2">
         {transactions.map(t => (
           <li key={t.id} className="p-2 border rounded">
+            <div><b>User:</b> {t.userFullName}</div>
             <div><b>Type:</b> {t.type}</div>
             <div><b>Amount:</b> {t.amount}</div>
             <div><b>Account:</b> {t.accountId}</div>
+            <div><b>Description:</b> {t.description}</div>
             <div className="text-sm text-gray-500">{new Date(t.createdAt).toLocaleString()}</div>
           </li>
         ))}

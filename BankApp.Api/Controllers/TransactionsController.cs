@@ -1,8 +1,9 @@
-
-using Microsoft.AspNetCore.Mvc;
 using MediatR;
+using Microsoft.AspNetCore.Mvc;
 using BankApp.Application.Transactions.Commands;
 using BankApp.Application.Transactions.Queries;
+
+namespace BankApp.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

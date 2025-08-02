@@ -4794,8 +4794,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "c:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj": {
-              "projectPath": "c:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj"
+            "C:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\zeydo\\Desktop\\.net-case\\BankApp.Domain\\BankApp.Domain.csproj"
             }
           }
         }
